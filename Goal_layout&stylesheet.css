@@ -1,0 +1,73 @@
+@charset "utf-8";
+/*
+   This file contains the style sheet used for HOME AND RESUME HTML
+
+*/
+
+html{
+    background-color: rgb(39, 38, 38);
+    background-image: url(goal_page.jpg);
+    background-repeat: repeat;
+}
+
+body{
+    padding: 2px;
+    width: 100%;
+    height: auto;
+}
+
+.grid-for-home{
+    display: grid;
+    background-color: rgba(31, 30, 28, 0.479);
+    grid-template-columns: auto;
+    grid-template-rows: .25fr .25fr;
+    width: 80em;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 110px;
+    grid-area: 1/ 5/ span 1/ span 1;
+    opacity: 0.5;
+}
+
+.item1{
+    grid-area: 1/ 1 / span 1/ span 4;
+    text-align: center;
+    font-family: Hanken, Grotesk;
+    color: white;
+    width: auto;
+    height: auto;
+    margin-top: 73px;
+}
+
+.pHome_PG{
+    font-family: Hanken, Grotesk;
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    padding: 20px;
+    font-weight: normal;
+}
+
+
+/*===========================================================*/
+
+.skill_class{
+    background-image: url(skill_pg.png);
+}
+
+.skill_BG{
+    background-color: rgb(4 29 18 / 67%);
+    text-align: center;
+    margin-top: 134px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    display: block;
+    color: wheat;
+    font-weight: 900;
+    font-size: 20;
+}
